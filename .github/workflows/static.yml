@@ -39,7 +39,7 @@ jobs:
           # Upload entire repository
           #path: '.'
           # Upload docs/
-          path: 'docs/.'
+          path: 'dist/.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
